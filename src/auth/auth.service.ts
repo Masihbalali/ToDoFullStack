@@ -99,4 +99,9 @@ export class AuthService {
 
     }
 
+
+    async getMe(user) {
+        return user
+    }
+
 }
